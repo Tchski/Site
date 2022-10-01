@@ -13,16 +13,44 @@
 .form-group{
     margin-bottom: 15px;
 }
-.auth-form-container .text-input{
+.auth-form-container .text-input,
+.auth-form-container .locations{
     height: 30px;
     width: 100%;
     box-sizing: border-box;
     display: block;
     padding-left: 15px;
     padding-right: 15px;
-    border-color: blue;
+    border:1px solid black
 }
-.submit-button{
+.w-100{
+    width: 100%;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.btn{
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: blueviolet;
+    color: white;
+
+}
+.btn-link{
+    text-decoration: none;
+    line-height: 35px;
+    color: blue;
+}
+.btn-linke:hover{
+    text-decoration: underline;
+}
+/* .submit-button{
     display: block;
     width: 100%;
     height: 35px;
@@ -32,9 +60,12 @@
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 15px;
-}
+} */
 .reset-pass-link{
     display: block;
     text-align: center;
     font-size: 12px;
+}
+.sex-container{
+    display:inline-block;
 }
